@@ -1,0 +1,109 @@
+/* Estilos gerais */
+body {
+  background-color: #141414; /* Cor de fundo escura */
+  color: #fff; /* Cor padrão para o texto */
+  font-family: Arial, sans-serif; /* Fonte padrão */
+  margin: 0; /* Remove margens padrão */
+  padding: 0; /* Remove padding padrão */
+}
+
+/* Estilos da Navbar */
+.navbar {
+  background-color: #0b0b0b; /* Cor de fundo preta para a navbar */
+}
+
+.navbar .nav-link {
+  color: #ff0000; /* Cor dos textos dos links */
+}
+
+.navbar .nav-link:hover {
+  color: #ff0000; /* Cor dos textos dos links ao passar o mouse */
+}
+
+.navbar .navbar-brand {
+  color: #ff0000; /* Cor do texto da marca */
+}
+
+/* Estilos da Logo */
+.site-logo {
+  text-align: center; /* Alinha o logo no centro */
+  margin-top: 20px; /* Espaçamento superior do logo */
+  margin-bottom: 20px; /* Espaçamento inferior do logo */
+}
+
+.logo-text {
+  font-family: 'Bebas Neue', sans-serif; /* Aplica a fonte Bebas Neue */
+  font-size: 48px;
+  color: #e50914; /* Cor vermelha */
+  text-decoration: none; /* Remove sublinhado do link */
+}
+
+.logo-text a {
+  color: #e50914; /* Cor vermelha para o link */
+  text-decoration: none; /* Remove sublinhado do link */
+}
+
+/* Estilos específicos para os filmes */
+.card-title {
+  color: #fff; /* Cor branca para o título dos filmes */
+  font-weight: bold; /* Torna o título em negrito */
+}
+
+.card-text {
+  color: #ccc; /* Cor cinza clara para o texto da descrição dos filmes */
+}
+
+/* Estilos específicos para a página de login */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-box {
+  background-color: #333;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  max-width: 400px; /* Largura máxima do container */
+  width: 100%;
+  text-align: center;
+}
+
+h2 {
+  color: #fff; /* Cor do título */
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="password"],
+button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+input[type="text"],
+input[type="password"] {
+  background-color: #222;
+  color: #fff;
+}
+
+button {
+  background-color: #e50914; /* Cor de fundo do botão */
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ff0a16; /* Cor de fundo do botão ao passar o mouse */
+}
+
+.error-message {
+  color: #ff6347; /* Cor vermelha para mensagens de erro */
+  margin-bottom: 15px;
+}
